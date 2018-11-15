@@ -35,4 +35,8 @@ const getStatsData = (() => {
         .catch(error => console.log(error))
 });
 
+<<<<<<< HEAD
 getStatsData();
+=======
+getStatsData();
+>>>>>>> 19de831893befd9f8faf11c2c4fbb7b69027fc91

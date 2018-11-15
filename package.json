@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
@@ -12,6 +13,12 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
     "victory": "^30.6.0"
+=======
+    "morgan": "^1.9.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.1.1"
+>>>>>>> 19de831893befd9f8faf11c2c4fbb7b69027fc91
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,7 +26,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+<<<<<<< HEAD
   "proxy": "http://localhost:8080",
+=======
+>>>>>>> 19de831893befd9f8faf11c2c4fbb7b69027fc91
   "eslintConfig": {
     "extends": "react-app"
   },

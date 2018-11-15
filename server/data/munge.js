@@ -18,4 +18,8 @@ const fileStrToArr = (path) => {
 }
 
 rosterWriteStream.write(fileStrToArr('./roster.js'));
+<<<<<<< HEAD
 statsWriteStream.write(fileStrToArr('./stats.js'));
+=======
+statsWriteStream.write(fileStrToArr('./stats.js'));
+>>>>>>> 19de831893befd9f8faf11c2c4fbb7b69027fc91

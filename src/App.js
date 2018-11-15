@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import { Route, Link } from 'react-router-dom'
 // import logo from './logo.svg';
 import './App.css';
@@ -43,6 +44,20 @@ class App extends Component {
       //     </a>
       //   </header>
       // </div>
+=======
+import logo from './logo.svg';
+import './App.css';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1>View Stats</h1>
+          
+        </header>
+      </div>
+>>>>>>> 19de831893befd9f8faf11c2c4fbb7b69027fc91
     );
   }
 }

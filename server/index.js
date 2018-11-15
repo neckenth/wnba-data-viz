@@ -11,7 +11,11 @@ const createApp = () => {
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
 
+<<<<<<< HEAD
   app.use("/api", require("./api"));
+=======
+  app.use('/api', require('./api'));
+>>>>>>> 19de831893befd9f8faf11c2c4fbb7b69027fc91
 
   app.use(express.static(path.join(__dirname, "..", "public")));
 
@@ -37,6 +41,7 @@ const createApp = () => {
 };
 
 const startListening = () => {
+<<<<<<< HEAD
   // start listening (and create a 'server' object representing our server)
   app.listen(PORT, () => console.log(`listening on ${PORT}`));
 };
@@ -51,3 +56,23 @@ if (require.main === module) {
 } else {
   createApp();
 }
+=======
+    // start listening (and create a 'server' object representing our server)
+    const server = app.listen(PORT, () =>
+      console.log(`listening on ${PORT}`)
+    )
+  }
+  
+  async function bootApp() {
+  
+    await createApp()
+    await startListening()
+  }
+
+  if (require.main === module) {
+    bootApp()
+  } else {
+    createApp()
+  }
+  
+>>>>>>> 19de831893befd9f8faf11c2c4fbb7b69027fc91
